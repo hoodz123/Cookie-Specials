@@ -11,8 +11,12 @@ Food/Item System that gives you armor, health, stamina, or stress depending on t
 2. Go to qb-core/shared/items.lua and paste this
 ```lua
 --Cookie-Specials
-["cookie"] 	= {["name"] = "cookie", ["label"] = "Cookie", ["weight"] = 0, 		["type"] = "item", 		["image"] = "Cookie.png",  ["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Special Cookie"},
+["cookie"] 	= {["name"] = "cookie", ["label"] = "Cookie", ["weight"] = 0, 		["type"] = "item", 		["image"] = "Cookie.png",  ["unique"] = true, 		["useable"] = true["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Special Cookie"},
 ["donut"] 		= {["name"] = "donut", 	 ["label"] = "Donut",    ["weight"] = 0, 		["type"] = "item", 		["image"] = "donut.png", 	["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Special Donut"},
+["fries"] 	= {["name"] = "fries", ["label"] = "Fires", ["weight"] = 0, 		["type"] = "item", 		["image"] = "fries.png",  ["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "French Fries"},
+["burger"] 		= {["name"] = "burger", 	 ["label"] = "Burger",    ["weight"] = 0, 		["type"] = "item", 		["image"] = "burger.png", 	["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Space Ship Burger"},
+["pizza"] 	= {["name"] = "pizza", ["label"] = "Pizza", ["weight"] = 0, 		["type"] = "item", 		["image"] = "pizza.png",  ["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Crack Pizza"},
+["wings"] 		= {["name"] = "wings", 	 ["label"] = "Wings",    ["weight"] = 0, 		["type"] = "item", 		["image"] = "wings.png", 	["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Some Mad Chicken Wings"},
 ```
 3. Go to qb-inventory or lj-inventory / html / images and add in the images I put in that images folder.
 
